@@ -23,6 +23,8 @@
 		3C59C1EF283AF48300818778 /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C59C1ED283AF48300818778 /* Memo.swift */; };
 		3C59C1F1283AF59D00818778 /* MemoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C59C1F0283AF59D00818778 /* MemoStore.swift */; };
 		3C59C1F2283AF59D00818778 /* MemoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C59C1F0283AF59D00818778 /* MemoStore.swift */; };
+		3C750FE8283DD75100251533 /* ComposeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C750FE7283DD75100251533 /* ComposeView.swift */; };
+		3C750FE9283DD75100251533 /* ComposeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C750FE7283DD75100251533 /* ComposeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,7 @@
 		3C59C1EC283AEE1C00818778 /* SwiftUIMemo--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "SwiftUIMemo--iOS--Info.plist"; sourceTree = "<group>"; };
 		3C59C1ED283AF48300818778 /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
 		3C59C1F0283AF59D00818778 /* MemoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoStore.swift; sourceTree = "<group>"; };
+		3C750FE7283DD75100251533 /* ComposeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 			isa = PBXGroup;
 			children = (
 				3C035719283D43AE004716A2 /* MemoCell.swift */,
+				3C59C1E7283AECA000818778 /* MainListView.swift */,
+				3C750FE7283DD75100251533 /* ComposeView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -83,7 +88,6 @@
 				3C59C1EB283AECC200818778 /* Memory */,
 				3C59C1EA283AECBA00818778 /* CoreData */,
 				3C59C1C4283AE3A800818778 /* SwiftUIMemoApp.swift */,
-				3C59C1E7283AECA000818778 /* MainListView.swift */,
 				3C59C1C7283AE3A800818778 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -227,6 +231,7 @@
 				3C59C1F1283AF59D00818778 /* MemoStore.swift in Sources */,
 				3C59C1E8283AECA000818778 /* MainListView.swift in Sources */,
 				3C59C1DB283AE3A800818778 /* Persistence.swift in Sources */,
+				3C750FE8283DD75100251533 /* ComposeView.swift in Sources */,
 				3C59C1D7283AE3A800818778 /* SwiftUIMemoApp.swift in Sources */,
 				3C59C1EE283AF48300818778 /* Memo.swift in Sources */,
 			);
@@ -241,6 +246,7 @@
 				3C59C1F2283AF59D00818778 /* MemoStore.swift in Sources */,
 				3C59C1E9283AECA000818778 /* MainListView.swift in Sources */,
 				3C59C1DC283AE3A800818778 /* Persistence.swift in Sources */,
+				3C750FE9283DD75100251533 /* ComposeView.swift in Sources */,
 				3C59C1D8283AE3A800818778 /* SwiftUIMemoApp.swift in Sources */,
 				3C59C1EF283AF48300818778 /* Memo.swift in Sources */,
 			);
